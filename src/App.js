@@ -40,7 +40,7 @@ function App() {
         } else if(timeRemaining === 0) {
             endGame()
         }
-    }, [timeRemaining, isTimeRunning])
+    }, [timeRemaining, isTimeRunning]) // eslint-disable-line react-hooks/exhaustive-deps
     
     return (
         <div>
